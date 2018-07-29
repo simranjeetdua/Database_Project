@@ -6,7 +6,10 @@ from tkinter import *
 
 window=Tk() #window part
 
-b1=Button(window,text="Execute")
+def kmtomiles():
+    print("success")
+
+b1=Button(window,text="Execute",command=kmtomiles)
 b1.grid(row=0,column=0)  #simple button object
 
 e1=Entry(window)
